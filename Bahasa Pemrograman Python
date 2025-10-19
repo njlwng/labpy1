@@ -1,0 +1,104 @@
+# 🐍 LATIHAN 2 – BAHASA PEMROGRAMAN PYTHON  
+
+## 👩‍💻 Identitas  
+Nama         :Najla Wening Khairunnisa  
+NIM          :312510225  
+Kelas        :TI.25.A2  
+Mata Kuliah  :Pengantar Pemrograman  
+Dosen        :Agung Nugroho, S.Kom., M.Kom  
+---
+## 🎯 Tujuan  
+Praktikum ini bertujuan untuk memahami penggunaan *bahasa pemrograman Python* menggunakan aplikasi *PyCharm*.  
+Mahasiswa diharapkan mampu membuat project baru, menulis kode Python dasar, dan menjalankannya untuk memahami konsep pemrograman dasar.
+---
+## 🧰 Alat dan Bahan  
+- Laptop atau komputer  
+- Aplikasi *PyCharm*  
+- Interpreter *Python 3.x*  
+- Akun GitHub (untuk dokumentasi tugas)  
+---
+## ⚙ Langkah-Langkah Praktikum  
+
+### 1️⃣ Instalasi dan Persiapan Project
+1. Unduh *PyCharm* dari situs resmi JetBrains.  
+2. Buka PyCharm → klik *“Create New Project”*  
+3. Di kolom Name, ketik nama project: lab1py  
+4. Pastikan pengaturan environment adalah *Virtualenv (venv)*  
+5. Klik *Create*
+---
+### 2️⃣ Membuat File Program
+1. Di jendela kiri, klik kanan folder lab1py → pilih *New → Python File*  
+2. Ketik nama file: latihan1.py  
+3. Ketik kode Python berikut sebagai latihan pertama:  
+```python
+  print("Hello")
+  print("Saya sedang belajar python")
+4. Jalankan program dengan menekan tombol run di kanan atas pycharm
+5. Hasil yang muncul di terminal adalah:
+  Hello
+  Saya sedang belajar python
+6. Buat file baru bernama latihan2.py, lalu tulis kode berikut:
+  a = int(input("Masukkan bilangan A: "))
+  b = int(input("Masukkan bilangan B: "))
+
+  if a > b:
+      print("Bilangan terbesar adalah A =", a)
+  else:
+      print("Bilangan terbesar adalah B =", b)
+🧩 Penjelasan:
+Program ini menggunakan struktur percabangan if-else untuk membandingkan dua bilangan dan menampilkan bilangan yang lebih besar.
+4️⃣ Latihan 3 – Menentukan Bilangan Terbesar dari Tiga Bilangan
+Buat file baru bernama latihan3.py, isi dengan kode berikut:
+  a = int(input("Masukkan bilangan A: "))
+  b = int(input("Masukkan bilangan B: "))
+  c = int(input("Masukkan bilangan C: "))
+
+  if a > b and a > c:
+      print("Bilangan terbesar adalah A =", a)
+  elif b > a and b > c:
+      print("Bilangan terbesar adalah B =", b)
+  else:
+      print("Bilangan terbesar adalah C =", c)
+🧠 Penjelasan:
+Program ini menggunakan percabangan if-elif-else untuk membandingkan tiga bilangan dan menampilkan bilangan terbesar di antara ketiganya.
+---
+🧮 Flowchart
+Flowchart Menentukan Bilangan Terbesar dari 3 Bilangan
+Mulai
+   ↓
+Input a, b, c
+   ↓
+Apakah a > b dan a > c ?
+   ├── Ya → Tampilkan a
+   └── Tidak
+        ↓
+        Apakah b > c ?
+           ├── Ya → Tampilkan b
+           └── Tidak → Tampilkan c
+   ↓
+Selesai
+---
+Flowchart Menentukan Bilangan Terbesar dari N Bilangan
+Mulai
+   ↓
+Input bilangan pertama → simpan ke variabel max
+   ↓
+Input bilangan berikutnya
+   ↓
+Apakah bilangan = 0 ?
+   ├── Ya → Tampilkan max (bilangan terbesar)
+   └── Tidak
+        ↓
+        Apakah bilangan > max ?
+           ├── Ya → ganti max = bilangan
+           └── Tidak → lanjut input
+   ↓
+Kembali ke input bilangan berikutnya
+---
+💡 Kesimpulan
+Dari praktikum ini dapat disimpulkan bahwa:
+Python dapat digunakan dengan mudah melalui IDE PyCharm.
+Percabangan if, elif, dan else berguna untuk membuat logika perbandingan.
+Program dapat menentukan bilangan terbesar dengan menggunakan logika komparasi sederhana.
+
+Repository GitHub: https://github.com/njlwng/labpy1 
