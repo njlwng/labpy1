@@ -1,0 +1,57 @@
+# 🧩 LAPORAN PRAKTIKUM 4  
+Nama        : Najla Wening Khairunnisa  
+NIM         : 312510225  
+Kelas       : TI.25.A2  
+Mata Kuliah : Pengantar Pemrograman  
+Dosen       : Agung Nugroho, S.Kom., M.Kom  
+
+## 📚 MENGENAL VERSION CONTROL SYSTEM (GIT & GITHUB)
+
+### 🎯 Tujuan
+Memahami konsep dasar *Version Control System (VCS)* menggunakan *Git* dan *GitHub*, serta cara mengelola project secara online.
+---
+### 🧠 Dasar Teori
+*Git* digunakan untuk mencatat setiap perubahan file di dalam project.  
+*GitHub* berfungsi menyimpan repository Git secara online untuk kolaborasi dan backup project.
+---
+### ⚙ Alat dan Bahan
+- Laptop / Komputer  
+- Aplikasi *Git*  
+- Akun *GitHub*  
+- Internet stabil  
+---
+### 🧾 Langkah-Langkah Praktikum
+1. Instal Git dari [git-scm.com/download](https://git-scm.com/download)  
+   Cek versi Git:
+   ```bash
+   git --version
+2. Konfigurasi user global
+   ```bash
+   git config --global user.name "Najla Wening Khairunnisa"
+   git config --global user.email "njl.wng@gmail.com"
+3. Buat folder project
+   ```bash
+   mkdir latihan1
+   cd latihan1
+   git init
+4. Buat file README.md:
+   ```bash
+   echo "# Latihan1" >> README.md
+5. Tambahkan file dan commit:
+   ```bash
+   git add README.md
+   git commit -m "File pertama saya"
+6. Buat repository di GitHub bernama latihan1
+7. Hubungkan repository lokal ke GitHub:
+   ```bash
+   git remote add origin https://github.com/njlwng/latihan1.git
+   git push -u origin master
+---
+✨Hasil
+Repository latihan1 berhasil dibuat dan diunggah ke GitHub.
+Semua perintah Git berjalan tanpa error.
+🔗 Link Repository GitHub: https://github.com/njlwng/latihan1
+---
+📝 Kesimpulan
+Dari praktikum ini saya belajar menggunakan Git untuk mencatat perubahan kode,
+dan GitHub sebagai tempat menyimpan project online agar mudah diakses dan dibagikan.
