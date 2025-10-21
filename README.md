@@ -1,5 +1,9 @@
 ## TUGAS PERTEMUAN 4 PENGANTAR PEMROGRAMAN
-Najla Wening Khairunnisa
+Nama        : Najla Wening Khairunnisa  
+NIM         : 312510225  
+Kelas       : TI.25.A2  
+Mata Kuliah : Pengantar Pemrograman  
+Dosen       : Agung Nugroho, S.Kom., M.Kom
 
 # Latihan 1
 Folder : MengenalVCS (Git & GitHub)
